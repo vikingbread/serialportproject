@@ -1,0 +1,14 @@
+此代码是在校期间完成的一个项目。
+
+相当于是一个上位机，是Webservice和下位机通信的中间节点。
+主要负责接受、处理、转发数据！
+通过RS232与下位机通信，JAVA Web API与Web服务器通信。
+
+
+目录介绍
+src：程序代码文件夹
+com.njit.linker.main          主程序所在包
+com.njit.linker.service.impl  所有通信接口的实现类
+com.njit.linker.util          各种工具类
+
+test：一些测试类
