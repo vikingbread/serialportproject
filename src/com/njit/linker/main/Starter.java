@@ -41,11 +41,7 @@ public class Starter {
 			logger.error("无效的主机地址！请重试。");
 			System.exit(1);
 		}
-		// String comName = args[1];
 		String comName = getPortName1();
-		if (comName == null) {
-			comName = getPortName();
-		}
 
 		List<String> list = UtilsPool.getPortUtil().getPortIdentifiers();
 		if (!list.contains(comName)) {
